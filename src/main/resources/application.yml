@@ -1,0 +1,18 @@
+server:
+    port: 8082
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+        clientId: 397706279361-2ebgj0aogcu84cil2p4n2o3hd7khecih.apps.googleusercontent.com
+        clientSecret: NvPQNwYC6V9H8JlPJJRPZduR
+        accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+        userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+        tokenName: oauth_token
+        authenticationScheme: query
+        clientAuthenticationScheme: form
+        scope: profile
+    resource:
+        userInfoUri: https://www.googleapis.com/userinfo/v2/me
+        preferTokenInfo: false
